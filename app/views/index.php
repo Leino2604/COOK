@@ -17,7 +17,7 @@
         <img src="../../assets/img/brand.svg" class="brand-img" alt="Our brand logo">
       </a>
       <div class="icon-links">
-        <a href="#" class="icon-link account-link">
+        <a href="./account/login/login.php" class="icon-link account-link">
           <svg xmlns="http://www.w3.org/2000/svg" class="icon account-icon" viewBox="0 0 512 512">
             <path d="M344 144c-3.92 52.87-44 96-88 96s-84.15-43.12-88-96c-4-55 35-96 88-96s92 42 88 96z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" class="path" />
             <path d="M256 304c-87 0-175.3 48-191.64 138.6C62.39 453.52 68.57 464 80 464h352c11.44 0 17.62-10.48 15.65-21.4C431.3 352 343 304 256 304z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32" class="path" />
@@ -175,9 +175,9 @@
           <p class="heading-secondary">Bestsellers</p>
         </a>
         <div class="carousel-container">
-          <a class="carousel-back-link">
+          <button class="carousel-btn carousel-back-btn">
             <ion-icon name="arrow-back-outline" class="arrow-back-icon"></ion-icon>
-          </a>
+          </button>
           <div class="carousel-item">
             <img src="../../assets/img/carousel/meal-1.jpg" alt="Chicken Alexander dish" class="carousel-img margin-bottom-very-small">
             <p class="carousel-dish-name margin-bottom-very-small">Chicken Alexander</p>
@@ -198,9 +198,57 @@
             <img src="../../assets/img/carousel/meal-5.jpg" alt="Beef Stroganoff" class="carousel-img margin-bottom-very-small">
             <p class="carousel-dish-name margin-bottom-very-small">Beef Stroganoff</p>
           </div>
-          <a class="carousel-forward-link">
+          <div class="carousel-item">
+            <img src="../../assets/img/carousel/meal-6.jpg" alt="Beef Stroganoff" class="carousel-img margin-bottom-very-small">
+            <p class="carousel-dish-name margin-bottom-very-small">Beef Stroganoff</p>
+          </div>
+          <div class="carousel-item">
+            <img src="../../assets/img/carousel/meal-7.jpg" alt="Beef Stroganoff" class="carousel-img margin-bottom-very-small">
+            <p class="carousel-dish-name margin-bottom-very-small">Beef Stroganoff</p>
+          </div>
+          <div class="carousel-item">
+            <img src="../../assets/img/carousel/meal-8.jpg" alt="Beef Stroganoff" class="carousel-img margin-bottom-very-small">
+            <p class="carousel-dish-name margin-bottom-very-small">Beef Stroganoff</p>
+          </div>
+          <div class="carousel-item">
+            <img src="../../assets/img/carousel/meal-9.jpg" alt="Beef Stroganoff" class="carousel-img margin-bottom-very-small">
+            <p class="carousel-dish-name margin-bottom-very-small">Beef Stroganoff</p>
+          </div>
+          <div class="carousel-item">
+            <img src="../../assets/img/carousel/meal-10.jpg" alt="Beef Stroganoff" class="carousel-img margin-bottom-very-small">
+            <p class="carousel-dish-name margin-bottom-very-small">Beef Stroganoff</p>
+          </div>
+          <div class="carousel-item">
+            <img src="../../assets/img/carousel/meal-11.jpg" alt="Beef Stroganoff" class="carousel-img margin-bottom-very-small">
+            <p class="carousel-dish-name margin-bottom-very-small">Beef Stroganoff</p>
+          </div>
+          <div class="carousel-item">
+            <img src="../../assets/img/carousel/meal-12.jpg" alt="Beef Stroganoff" class="carousel-img margin-bottom-very-small">
+            <p class="carousel-dish-name margin-bottom-very-small">Beef Stroganoff</p>
+          </div>
+          <div class="carousel-item">
+            <img src="../../assets/img/carousel/meal-13.jpg" alt="Beef Stroganoff" class="carousel-img margin-bottom-very-small">
+            <p class="carousel-dish-name margin-bottom-very-small">Beef Stroganoff</p>
+          </div>
+          <div class="carousel-item">
+            <img src="../../assets/img/carousel/meal-14.jpg" alt="Beef Stroganoff" class="carousel-img margin-bottom-very-small">
+            <p class="carousel-dish-name margin-bottom-very-small">Beef Stroganoff</p>
+          </div>
+          <div class="carousel-item">
+            <img src="../../assets/img/carousel/meal-16.jpg" alt="Beef Stroganoff" class="carousel-img margin-bottom-very-small">
+            <p class="carousel-dish-name margin-bottom-very-small">Beef Stroganoff</p>
+          </div>
+          <div class="carousel-item">
+            <img src="../../assets/img/carousel/meal-17.jpg" alt="Beef Stroganoff" class="carousel-img margin-bottom-very-small">
+            <p class="carousel-dish-name margin-bottom-very-small">Beef Stroganoff</p>
+          </div>
+          <div class="carousel-item">
+            <img src="../../assets/img/carousel/meal-18.jpg" alt="Beef Stroganoff" class="carousel-img margin-bottom-very-small">
+            <p class="carousel-dish-name margin-bottom-very-small">Beef Stroganoff</p>
+          </div>
+          <button class="carousel-btn carousel-forward-btn">
             <ion-icon name="arrow-forward-outline" class="arrow-forward-icon"></ion-icon>
-          </a>
+          </button>
         </div>
       </div>
     </section>
@@ -293,6 +341,7 @@
 
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>

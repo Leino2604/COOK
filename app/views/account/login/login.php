@@ -53,13 +53,14 @@
       </form>
     </div>
   </header>
-  <main class="main">
+  <main class="main margin-bottom-very-large">
     <section class="section-log-in">
       <div class="login-container">
         <p class="heading-secondary log-in-title margin-bottom-small">Log in or Sign up</p>
-        <form class="login-form" novalidate>
+        <form class="form" novalidate>
           <label class="heading-tertiary block margin-bottom-tiny" for="email-input">Email address</label>
-          <input type="text" class="text-input margin-bottom-rather-small" id="email-input" placeholder="example@abc.com" required name="email" maxlength="60">
+          <input type="text" class="text-input margin-bottom-tiny" id="email-input" placeholder="example@abc.com" required name="email" maxlength="60">
+          <p class="error margin-bottom-small" id="email-error"></p>
 
           <p class="heading-tertiary margin-bottom-smaller">Have you already signed up?</p>
           <label class="radio-container" for="signup-radio" id="signup">
@@ -72,16 +73,19 @@
             <input type="radio" name="sign-up" id="login-radio" class="radio-input" value="yes">
             <span class="radio-checkmark"></span>
           </label>
-          <div class="active login-accordion">
+          <div class="hidden login-accordion">
             <label class="heading-tertiary block margin-bottom-tiny" for="login-password-input">Password</label>
-            <input type="password" class="text-input margin-bottom-rather-small" id="login-password-input" placeholder="********" required name="password" maxlength="60" minlength="8">
+            <input type="password" class="text-input margin-bottom-tiny" id="login-password-input" placeholder="********" required name="password">
+            <p class="error margin-bottom-small" id="login-password"></p>
             <button type="submit" class="btn">Log in</button>
           </div>
-          <div class="hidden signup-accordion">
+          <div class="active signup-accordion">
             <label class="heading-tertiary block margin-bottom-tiny" for="signup-password-input">Password</label>
-            <input type="password" class="text-input margin-bottom-rather-small" id="signup-password-input" placeholder="********" required name="password" maxlength="60" minlength="8">
+            <input type="password" class="text-input margin-bottom-tiny" id="signup-password-input" placeholder="********" name="password">
+            <p class="error margin-bottom-small" id="signup-password-error"></p>
             <label class="heading-tertiary block margin-bottom-tiny" for="confirm-password-input">Confirm password</label>
-            <input type="password" class="text-input margin-bottom-rather-small" id="confirm-password-input" placeholder="********" required name="password" maxlength="60" minlength="8">
+            <input type="password" class="text-input margin-bottom-tiny" id="confirm-password-input" placeholder="********" name="password">
+            <p class="error margin-bottom-small" id="confirm-password-error"></p>
             <button type="submit" class="btn">Sign up</button>
           </div>
         </form>
@@ -126,7 +130,7 @@
       <div class="contact-col">
         <p class="heading-tertiary footer-heading margin-bottom-small">Contact us</p>
         <p class="home-address margin-bottom-rather-small">The COOK Kitchen Sittingbourne Kent ME10 3HH, 623 Harrison St., 2nd Floor, San Francisco, CA 94107</p>
-        <a href="tel:01732-759000" class="tel-link margin-bottom-small footer-link">01732 759000</a>
+        <a href="tel:01732-759000" class="tel-link margin-bottom-tiny footer-link">01732 759000</a>
         <a href="mailto:customerservice@cookfood.com.us" class="email-link margin-bottom-small footer-link">customerservice@cookfood.com.us</a>
       </div>
       <div class="account-col">

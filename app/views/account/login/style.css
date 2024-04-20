@@ -63,6 +63,10 @@ body {
   margin-bottom: 6.4rem;
 }
 
+.margin-bottom-very-large {
+  margin-bottom: 8rem;
+}
+
 .block {
   display: block
 }
@@ -372,6 +376,12 @@ body {
   display: none;
 }
 
+.error {
+  font-size: 1.4rem;
+  color: red;
+  padding: 0 1.2rem;
+}
+
 /********************************
 **********FOOTER************8****
 *********************************
@@ -409,6 +419,7 @@ body {
 
 .footer-link:link,
 .footer-link:visited {
+  display: block;
   text-decoration: none;
   transition: all 0.5s ease;
   color: #3f728a;
